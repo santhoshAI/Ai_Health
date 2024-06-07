@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}your report{% endblock title %}
+
+{% block body %}
+    <main>
+        <h2>Your Reports</h2>
+        <form action="/undev" class="device">
+            <button style="display: flex;" class="shadow">
+                <h3>Food</h3>
+                <div>
+                    <img src="{{url_for('static', filename='files/img/food.png')}}">
+                </div>
+            </button>
+            <button style="display: flex;" class="shadow">
+                <h3>Weight</h3>
+                <div>
+                    <img src="{{url_for('static', filename='files/img/Weight.png')}}">
+                </div>
+            </button>
+            <button style="display: flex;" class="shadow">
+                <h3>Blood Pressure</h3>
+                <div>
+                    <img src="{{url_for('static', filename='files/img/bp.png')}}">
+                </div>
+            </button>
+            <button style="display: flex;" class="shadow">
+                <h3>Blood Sugar</h3>
+                <div>
+                    <img src="{{url_for('static', filename='files/img/bs.png')}}">
+                </div>
+            </button>
+            <button style="display: flex;" class="shadow">
+                <h3>Medicine</h3>
+                <div>
+                    <img src="{{url_for('static', filename='files/img/Medicine.png')}}">
+                </div>
+            </button>
+            <button style="display: flex;" class="shadow">
+                <h3>Activity</h3>
+                <div>
+                    <img src="{{url_for('static', filename='files/img/Activity.png')}}">
+                </div>
+            </button>
+        </form>
+    </main>
+{% endblock body %}

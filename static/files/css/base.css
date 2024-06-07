@@ -1,0 +1,22 @@
+form{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#btn{
+    width: 200px;
+    margin-bottom: 50px;
+    background-color: rgb(131, 131, 116);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#btn button, input{
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}

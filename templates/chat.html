@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}chat with health {% endblock title %}
+
+{% block body %}
+    <div class='main'>
+        <div class="chatmain">
+            <dir class="box" id="box">
+
+                <div class="bot">
+                    <div class="chatlogo">🤖</div>
+                    <div>hii there, how can I help you?</div>
+                </div>
+
+            </dir>
+            
+            <form action="" id="chatinput">
+                <input type="text" id="input" placeholder="ask your question here..." class="input">
+                <input type="submit", id="submit">                    
+            </form>   
+        </div>
+    </div>
+{% endblock body %}
+
+{% block script %}
+    <script src='{{url_for('static', filename='files/js/chat.js')}}'></script>
+{% endblock script %}

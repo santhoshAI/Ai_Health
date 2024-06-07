@@ -1,0 +1,191 @@
+/* home */
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #e4e0e0;
+}
+
+header {
+    background-color: #4c9eaf;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 20px;
+
+}
+
+.add-data-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #fffefe;
+    color: rgb(16, 14, 14);
+    padding: 15px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 0.5px #35474b;
+    cursor: pointer;
+    width: 30%;
+    height: 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn div {
+    padding: 5px 9px;
+    background-color: #4c9eaf;
+    color: aliceblue;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    button {
+        width: 40%;
+        height: 80px;
+    }
+
+    button#menu {
+        width: auto;
+        height: auto;
+    }
+}
+
+#menu {
+    width: auto;
+    height: auto;
+}
+
+#footer {
+    background-color: #4c9eaf;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 2%;
+    width: 80%;
+    left: 8%;
+    border-radius: 10px;
+    border: #008ca8 solid 2px;
+    box-shadow: 0px 0px 5px 0.5px #35474b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+footer a {
+    color: white;
+    text-decoration: none;
+
+}
+
+/* chat */
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatmain{
+    background-color: #fffefe;
+    width: 80%;
+    height: 48rcap;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 0.5px #35474b;
+    padding: 5px;
+}
+
+.chatlogo{
+    padding: 5px;
+    background-color: #008ca8;
+    width: min-content;
+    border-radius: 50%;
+}
+
+
+.box{
+    height: 85%;
+    padding: 0%;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.bot, .user{
+    width: max-content;
+    max-width: 90%;
+    background-color: #e4e0e0;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0px;
+    
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+input.input{
+    width: 70%;
+}
+
+@media (max-width: 768px){
+    .chatmain{
+        height: 45rcap;
+    }
+}
+
+
+/* device */
+
+img{
+    width: 30px;
+    height: 30px;
+    margin: 15px 5px;
+}
+
+.device{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fffefe;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.device button{
+    width: 100%;
+    border-radius: 15px;
+    margin: 10px 10px;
+    box-shadow: 1px 1px 5px 0.5px #35474b;
+}
+

@@ -1,15 +1,14 @@
-# Ai_Health
-Setting up the Project
-Clone the repository using
-git clone https://github.com/VRohit1901/ChatBot-Flask
-Open the terminal/cmd and navigate to the project folder.
-cd ChatBot-Flask
-Install the requirments.txt using
-pip install requirments.txt
-Requirments.txt will install all the required dependancies.
-Usage
-Now run the chatbot.py using
-python chatbot.py
-Congrats! The app should now be running on http://localhost:5000
-
-Open http://localhost:5000 in your browser to interact with the chatbot.
+# Setting up the Project
+<ol>
+<li>Clone the repository using:</li>
+<code>git clone https://github.com/santhoshAI/Ai_Health</code>
+<li>Open the terminal/cmd and navigate to the project folder.</li>
+<code>cd Ai_Health</code>
+<li>Install the requirements.txt using</li>
+<code>pip install requirements.txt</code>
+<li>Requirments.txt will install all the required dependencies.</li>
+<li>Now run the chatbot.py using</li>
+<code>python chatbot.py</code>
+<li>Congrats! The app should now be running on http://localhost:5000</li>
+<code>http://localhost:5000</code>
+</ol>
